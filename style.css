@@ -554,7 +554,36 @@ body{
     to{
         opacity:1;
     }
+/* Better text visibility fix */
 
+body {
+    color: #ffffff;
+}
+
+.intro p,
+.card p,
+.footer-text {
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+    color: #ffb6d9;
+    text-shadow: 0 0 15px rgba(255,105,180,.8);
+}
+
+.star span {
+    color: #ffffff;
+}
+
+.date {
+    color: #ffffff;
+}
+
+.card {
+    background: rgba(0,0,0,0.35);
+}
 }
 
 /* ======================================================
