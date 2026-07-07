@@ -585,7 +585,20 @@ h3 {
     background: rgba(0,0,0,0.35);
 }
 }
+body {
+    background: radial-gradient(circle at top, #4a255f 0%, #1b0c33 45%, #090014 100%) !important;
+    color: white !important;
+    min-height: 100vh;
+}
 
+.intro,
+#universe {
+    background: transparent !important;
+}
+
+.card {
+    background: rgba(0,0,0,0.45) !important;
+}
 /* ======================================================
    END OF FILE ❤️
 ====================================================== */
