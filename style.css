@@ -645,9 +645,33 @@ body {
 
 /* All main sections */
 section, .intro, #universe {
-  background: transparent !important;
+  bacbackground: dark !important;.final-love {
+  margin: 60px 20px;
+  padding: 35px 25px;
+  text-align: center;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 18px;
+  line-height: 1.8;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 30px rgba(255,0,120,0.4);
+}
+
+.final-love h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.final-love b {
+  font-size: 20px;
+}
+   
+
+   
 }
 }
+
 
 
 /* ======================================================
