@@ -599,6 +599,23 @@ body {
 .card {
     background: rgba(0,0,0,0.45) !important;
 }
+.morning-button{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 25px;
+    background:#ff7aa2;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.morning-button:hover{
+    transform:scale(1.05);
+}
+
+
 /* ======================================================
    END OF FILE ❤️
 ====================================================== */
