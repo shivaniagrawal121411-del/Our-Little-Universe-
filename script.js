@@ -762,5 +762,42 @@ if(event.target.classList.contains("star")){
 createHearts();
 
 }
+const cuteMessages=[
+"You are my favourite person ❤️",
+"I'm always thinking of you 🌸",
+"You make my world brighter ✨",
+"I miss you more than words can say 🥺",
+"You are my home ❤️",
+"I love you endlessly 💕",
+"Our forever is worth waiting for 🌎❤️",
+"Every star reminds me of you ✨"
+];
 
+const hiddenStar=Math.floor(Math.random()*60);
+
+for(let i=0;i<60;i++){
+
+    let star=document.createElement("div");
+    star.className="star";
+
+    star.style.left=Math.random()*100+"%";
+    star.style.top=Math.random()*100+"%";
+
+    star.onclick=function(){
+
+        if(i===hiddenStar){
+
+            openPinkStar();
+
+        }else{
+
+            alert(cuteMessages[Math.floor(Math.random()*cuteMessages.length)]);
+
+        }
+
+    };
+
+    document.getElementById("sky").appendChild(star);
+
+}
 });
