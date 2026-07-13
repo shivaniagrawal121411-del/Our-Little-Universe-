@@ -654,6 +654,26 @@ body{
     background:transparent !important;
 }
 
+}/* Pink heart inside the first tappable circle */
+
+.menu .star:first-child::before{
+    content:"💗";
+    display:block;
+    font-size:42px;
+    line-height:1;
+    margin-bottom:6px;
+    animation:heartBeat 1.4s infinite;
+    filter:drop-shadow(0 0 10px hotpink);
+}
+
+@keyframes heartBeat{
+    0%,100%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.18);
+    }
 }
 
 
